@@ -36,7 +36,7 @@ dt_gp = fread("game_players.csv")
 dt_gpc = fread("game_price_changes.csv")
 ```
 
-**Converting to data tables ** 
+**Converting to data tables** 
 ```
 dt_ga = as.data.table(dt_ga)
 dt_gp = as.data.table(dt_gp)
